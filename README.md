@@ -14,9 +14,9 @@ Esse projeto contém o CMS/API para o meu blog.
 
 #### Comandos
 
-- `develop`: Executa a aplicaçáo em modo de desenvolvimento
-- `build`: Cria o build para deploy
-- `start`: Executa o projeto em cima do build
+- `develop`: Executa a aplicaçáo em modo de desenvolvimento com autoreload
+- `build`: Constroi o painel administrativo
+- `start`: Executa o projeto em modo de produção com autoreload desabilitado
 - `strapi`: CLI, utilizado para os comandos anteriores
 
 ## Start
@@ -43,7 +43,13 @@ Instalar as dependencias
 yarn
 ```
 
-Executar o modo de desenvolvimento
+Construir a aplicacao
+
+```
+yarn build
+```
+
+Executar o modo de desenvolvimento com autoreload
 
 ```
 yarn develop
