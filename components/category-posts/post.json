@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_category_posts_posts",
+  "info": {
+    "name": "Post",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
