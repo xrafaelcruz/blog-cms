@@ -30,7 +30,7 @@ docker-compose up
 
 Ele ira buscar as variaveis preenchidas anteriormente no .env para criar um container do postgres.
 
-O passo a passo gera o resultado a baixo
+O passo a passo gera o resultado abaixo
 
 - preenchimento do .env
 - execução do comando docker-compose up
@@ -65,7 +65,15 @@ Foi detectado alguns bugs ao executar a primeira vez com o comando **dev** e por
 
 **Liberar o acesso publico para as consultas na API**
 
-![Alt text](/assets/access.png?raw=true "Resultado após executar docker-compose up")
+![Alt text](/assets/access.png?raw=true "Tela de configuração publica da API")
+
+**Aviso**
+
+É possível que dependendo do banco ocorra algum erro de ssl ao rodar o projeto.
+
+Utilizar uma das 2 configurações ssl abaixo, linhas 13 e 16.
+
+![Alt text](/assets/ssl.png?raw=true "Configuração SSL")
 
 ## Comandos
 
